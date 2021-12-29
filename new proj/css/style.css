@@ -1,0 +1,147 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     color: snow;
+}
+header{
+     width: 100%;
+     height: 200px;
+     background-color: lightslategray;
+}
+header h1{
+     text-align: center;
+     padding-top: 50px;
+     font-family: tahoma;
+}
+header nav{
+     width: 750px;
+     height: 50px;
+     margin: 0 auto;
+     margin-top: 50px;
+}
+header nav a{
+     width: 150px;
+     height: 60px;
+     text-align: center;
+     line-height: 60px;
+     font-size: 20px;
+     display: block;
+     float: left;
+}
+header nav a:hover{
+     background-color: snow;
+     color: steelblue;
+     border-radius: 0px 10px 0px 10px;
+     transition: all 1s ease;
+}
+main{
+     width: 1000px;
+     height: auto;
+     margin: 30px auto;
+}
+main div{
+     width: 1000px;
+     height: 500px;
+     background-image: url(../img/c89f14850f29c36d50f07183cbcb1047.png);
+     border-radius: 10px;
+     box-shadow: 0px 0px 20px 0px #000000;
+}
+main .sec1{
+     width: 100%;
+     height: auto;
+     box-shadow: 0px 0px 20px 0px #000000;
+}
+main .sec1 h1{
+     color: black;
+     text-align: center;
+     padding-top: 20px;
+     font-size: 30px;
+     font-family: tahoma;
+}
+main .sec1 p{
+     color: black;
+     padding: 20px;
+     text-align: center;
+}
+main .sec2 article{
+     width: 300px;
+     height: 250px;
+     box-shadow: 0px 0px 10px 0px #000000;
+     float: left;
+     margin: 15px;
+}
+main .sec2 article h1{
+     text-align: center;
+     font-family: tahoma;
+     padding-top: 20px;
+     color: black;
+}
+main .sec2 article p{
+     text-align: center;
+     padding: 20px;
+     color: black;
+}
+main .sec2 article a{
+    width: 100px;
+    height: 50px;
+    background-color: cyan;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 25px;
+}
+main .sec2 article a:hover{
+     transform: scale(1.1);
+     transition: all 1s ease;
+     
+}
+footer{
+     width: 100%;
+     height: 200px;
+     background-color: lightslategray;
+     background-image: url(../img/blur\ jon\ snow.jpg);
+     float: left;
+}
+footer div h1{
+     width: 120px;
+     height: 50;
+     font-family: "Lucida Console", "Courier New", monospace;
+     margin: 40px;
+}
+.a1{
+     color: lightgreen;
+     float: left;
+     margin: 15px;
+     right: 40px;
+     margin-top: 3px;
+     font-size: 20px;
+}
+.a2{
+     width: 125px;
+     height: 50px;
+     text-align: center;
+     background-color: green;
+     display: block;
+     margin: 30px auto;
+     border-radius: 40px;
+     font-size: 24px;
+     text-align: center;
+     font-family: fantasy;
+     line-height: 50px;
+}
+.a2:hover{
+     transform: scale(.9);
+     transition: all 1s ease;
+}
+footer div .img{
+     width: 120px;
+     height: 120px;
+     float: right;
+     left: 90%;
+     position: absolute;
+     bottom: 350px;
+     top: 1640px;
+}
